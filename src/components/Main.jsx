@@ -5,9 +5,6 @@ import "./Main.css";
 // 3. 모든 태그는 닫혀 있어야 한다
 // 4. 최상위 태그는 반드시 하나여야만 한다
 const Main = () => {
-//   const number = 10;
-//   const obj = { a : 1 };
-
     const user = {
         name: "이기흥",
         isLogin: true,
@@ -18,18 +15,6 @@ const Main = () => {
     } else {
         return <div>로그인</div>
     }
-
-    // return (
-    //
-        // <main>
-        //     <h1>main</h1>
-        //     <h2>{number % 2 === 0 ? "짝수" : "홀수"}</h2>
-        //     {10}
-        //     {number}
-        //     {[1, 2, 3]}
-        //     {obj.a}
-        // </main>
-    // );
 };
 
 export default Main;
